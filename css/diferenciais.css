@@ -1,0 +1,49 @@
+.diferenciais__texto {
+    text-align: center;
+    padding: 96px 0;
+}
+
+.diferenciais__texto_span {
+    color: var(--vinho-escuro);
+    font-weight: 600;
+}
+.diferenciais__titulo {
+    color: var(--preto-texto);
+    font-size: 48px;
+    margin: 24px 0;
+    font-weight: 600;
+}
+
+.diferenciais__paragrafo {
+    width: 55%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.diferenciais__metricas {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.diferenciais__metricas_box {
+    text-align: left;
+    width: 25%;
+}
+.metricas__span {
+    font-size: 60px;
+    color: var(--vinho-escuro);
+    font-weight: 600;
+}
+.metricas__subtitulo {
+    font-size: 18px;
+    color: var(--preto-texto);
+    font-weight: 500;
+    margin: 12px 0 8px 0;
+}
+.metricas__texto {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 90%;
+}

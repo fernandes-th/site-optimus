@@ -1,18 +1,24 @@
 @import url("header.css");
+@import url("diferenciais.css");
 
 /* Variáveis */
 :root {
-    --cinza-texto-escuro: #3A404E;
-    --cinza-texto-claro: #667085;
-    --vinho-escuro: #8E2424;
-    --preto-texto: #101828;
-    --branco: #ffffff;
-    --fonte-principal: 'Inter';
+  --cinza-texto-escuro: #3a404e;
+  --cinza-texto-claro: #667085;
+  --vinho-escuro: #8e2424;
+  --preto-texto: #101828;
+  --branco: #ffffff;
+  --fonte-principal: "Inter";
 }
 
 body {
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    color: var(--cinza-texto-claro);
-    font-weight: 400;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  color: var(--cinza-texto-claro);
+  font-weight: 400;
+}
+
+.container {
+    width: calc(100% - 224px);
+    margin: 0 auto;
 }
