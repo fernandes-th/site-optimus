@@ -1,23 +1,12 @@
 .diferenciais__texto {
     text-align: center;
-    padding: 96px 0;
 }
 
-.diferenciais__texto_span {
-    color: var(--vinho-escuro);
-    font-weight: 600;
-}
 .diferenciais__titulo {
     color: var(--preto-texto);
     font-size: 48px;
     margin: 24px 0;
     font-weight: 600;
-}
-
-.diferenciais__paragrafo {
-    width: 55%;
-    margin: 0 auto;
-    line-height: 30px;
 }
 
 .diferenciais__metricas {

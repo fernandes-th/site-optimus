@@ -1,5 +1,7 @@
 @import url("header.css");
 @import url("diferenciais.css");
+@import url("vagas.css");
+
 
 /* Variáveis */
 :root {
@@ -9,6 +11,8 @@
   --preto-texto: #101828;
   --branco: #ffffff;
   --fonte-principal: "Inter";
+  --fundo-span: #F9F4F4;
+  --cinza-borda: #EAECF0;
 }
 
 body {
@@ -21,4 +25,21 @@ body {
 .container {
     width: calc(100% - 224px);
     margin: 0 auto;
+}
+
+.padding__duplo {
+  padding: 96px 0;
+}
+.padding__simples {
+  padding: 0 0 96px 0;
+}
+
+.secao__titulo {
+  color: var(--vinho-escuro);
+  font-weight: 600;
+}
+.secao__paragrafo {
+  width: 55%;
+  margin: 0 auto;
+  line-height: 30px;
 }
